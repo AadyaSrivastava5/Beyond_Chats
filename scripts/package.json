@@ -1,0 +1,21 @@
+{
+  "name": "beyondchats-enhancement-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for enhancing articles using Google search and Gemini API",
+  "main": "enhance-articles.js",
+  "scripts": {
+    "enhance": "node enhance-articles.js",
+    "enhance:all": "node enhance-articles.js --all"
+  },
+  "keywords": ["beyondchats", "enhancement", "gemini"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "@google/generative-ai": "^0.2.1",
+    "puppeteer": "^21.6.1"
+  }
+}
+

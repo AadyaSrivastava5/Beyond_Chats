@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: beyondchats-backend
+    env: node
+    region: oregon
+    buildCommand: cd backend && npm install --legacy-peer-deps --fetch-retries=5 --fetch-retry-mintimeout=20000
+    startCommand: cd backend && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MONGODB_URI
+        sync: false
+

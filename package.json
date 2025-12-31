@@ -1,0 +1,24 @@
+{
+  "name": "beyondchats-article-scraper-enhancer",
+  "version": "1.0.0",
+  "description": "Complete system for scraping, enhancing, and displaying BeyondChats articles",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../scripts && npm install && cd ../frontend && npm install",
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "scrape": "cd backend && npm run scrape",
+    "enhance": "cd scripts && node enhance-articles.js",
+    "start:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "beyondchats",
+    "scraper",
+    "gemini",
+    "react",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC"
+}
+
